@@ -1,0 +1,13 @@
+my:
+  greeting: Hello World
+  list:
+    values: One,Two,Three
+
+dbValues: "{connectionString:  'http: //___', userName:  'foo', password:  'pass'}"
+
+db:
+  connection: test-connection-string-here
+  host: 127.0.0.1
+  port: 1200
+
+management.endpoints.web.exposure.include: "*"
